@@ -39,6 +39,4 @@ However, it can be easily adapted for simpler tasks.
 
 ### For a Single, Large Mosaic (No Grids)
 
-If you have a smaller number of tiles and want to create one single output GeoTIFF instead of a grid of tiles, you can modify the main execution block:
-
-You can remove the grid logic and the related parts of the multipath input and only keep the related parts of the feathered mosaic.
+If you have a smaller number of tiles and want to create one single output GeoTIFF instead of a grid of tiles, you can modify the main execution block. You can remove the grid logic and the related parts of the multipath input and only keep the related parts of the feathered mosaic.
