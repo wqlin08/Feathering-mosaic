@@ -31,7 +31,7 @@ To eliminate seams where tiles overlap, a feathering technique based on a weight
     3.  The final pixel value is calculated as `total_weighted_value / total_weight`.
 -   **Benefit**: This ensures a smooth, gradual transition in overlapping areas instead of an abrupt line, resulting in a high-quality, seamless final product.
 
-## 3. Customization and Scalability
+### 3. Customization and Scalability
 
 This script is optimized for large-scale, processing where the source dataset is too large to be handled as a single file. The grid-based approach is essential when dealing with massive datasets (e.g., hundreds of thousands of tiles) as it breaks the problem down into manageable chunks.
 
